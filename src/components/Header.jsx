@@ -31,15 +31,15 @@ export default function Header() {
         <div className="polaroid-row">
           <div className="polaroid polaroid--tilted-left">
             <img src={harvard} alt="harvard" className="polaroid-img" />
-            <p className="polaroid-caption">visited harvard for a rare disease hackathon 🌸</p>
+            <p className="polaroid-caption">visited harvard for a rare disease hackathon 💊</p>
           </div>
           <div className="polaroid">
             <img src={starbucks} alt="starbucks" className="polaroid-img" />
-            <p className="polaroid-caption">capturing my coffee obsession 🎨</p>
+            <p className="polaroid-caption">capturing my coffee obsession ☕</p>
           </div>
           <div className="polaroid polaroid--tilted">
             <img src={sunset} alt="sunset" className="polaroid-img" />
-            <p className="polaroid-caption">got the prettiest sunset on camera ✨</p>
+            <p className="polaroid-caption">got the prettiest sunset on camera 🌅</p>
           </div>
         </div>
       </div>
