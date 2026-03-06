@@ -1,9 +1,11 @@
+import me from '../assets/me.jpeg'
+
 function About() {
   return (
     <section id="about" className="about">
       <div className="about-photo">
         <div className="polaroid">
-          <div className="polaroid-img polaroid-img--sm polaroid-placeholder--person"></div>
+          <img src={me} alt="me" className="polaroid-img polaroid-img--sm" />
           <p className="polaroid-caption">that's me! ♡</p>
         </div>
       </div>
