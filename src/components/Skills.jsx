@@ -1,7 +1,9 @@
 const skillCols = [
-  { heading: 'Frontend', tags: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'HTML/CSS', 'Framer Motion'] },
-  { heading: 'Backend', tags: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'REST APIs', 'GraphQL'] },
-  { heading: 'Tools & Others', tags: ['Git', 'Docker', 'Figma', 'Jest', 'AWS', 'CI/CD'] },
+  { heading: 'Languages', tags: ['Python', 'C++/C', 'Java', 'TypeScript/JavaScript', 'SQL', 'R', 'HTML/CSS', 'Bash'] },
+  { heading: 'AI & ML', tags: ['TensorFlow', 'scikit-learn', 'OpenCV', 'MediaPipe', 'pandas', 'numpy', 'matplotlib', 'seaborn', 'polars', 'scanpy'] },
+  { heading: 'Frontend', tags: ['React.js', 'TailwindCSS'] },
+  { heading: 'Backend', tags: ['FastAPI', 'Flask', 'Node.js', 'PostgreSQL', 'MongoDB', 'Supabase', 'Docker'] },
+  { heading: 'Developer Tools', tags: ['Linux', 'CI/CD', 'Arduino', 'Jira', 'Cursor', 'Claude', 'JUnit', 'Pytest'] },
 ]
 
 export default function Skills() {
