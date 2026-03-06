@@ -12,11 +12,7 @@ function About() {
       <div className="about-text">
         <h2>About Me</h2>
         <p>
-          I'm a full-stack developer with a passion for creating beautiful,
-          user-friendly applications. When I'm not coding, you'll find me
-          exploring new design trends, sipping matcha lattes, and bringing
-          kawaii aesthetics into the tech world. I believe technology should
-          be both powerful and delightful! 💖
+          I'm a full-stack developer who enjoys building clean, intuitive applications. I'm particularly interested in technology that intersects with biology and healthcare, where good software can have real-world impact. I also spend a lot of time thinking about design and how thoughtful aesthetics can make complex tools easier and more enjoyable to use. 💖
         </p>
       </div>
     </section>
