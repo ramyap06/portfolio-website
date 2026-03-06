@@ -24,11 +24,22 @@ export default function Header() {
         </div>
       </div>
       <div className="hero-photo">
-        <div className="polaroid polaroid--tilted">
-          <div className="polaroid-img polaroid-placeholder"></div>
-          <p className="polaroid-caption">living my best creative life ✨</p>
+        <div className="polaroid-row">
+          <div className="polaroid polaroid--tilted-left">
+            <div className="polaroid-img polaroid-placeholder"></div>
+            <p className="polaroid-caption">living my best creative life ✨</p>
+          </div>
+          <div className="polaroid">
+            <div className="polaroid-img polaroid-placeholder"></div>
+            <p className="polaroid-caption">always creating 🎨</p>
+          </div>
+          <div className="polaroid polaroid--tilted">
+            <div className="polaroid-img polaroid-placeholder"></div>
+            <p className="polaroid-caption">good vibes only 🌸</p>
+          </div>
         </div>
       </div>
+      
     </section>
   )
 }

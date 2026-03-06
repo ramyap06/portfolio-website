@@ -60,7 +60,7 @@ body {
 .nav-links a {
   text-decoration: none;
   color: var(--text-dark);
-  font-size: 0.85rem;
+  font-size: 1rem;
   transition: color 0.2s;
 }
 
@@ -191,7 +191,22 @@ body {
 }
 
 .polaroid--tilted {
-  transform: rotate(2.5deg);
+  transform: rotate(7deg);
+}
+
+.polaroid--tilted-left {
+  transform: rotate(-7deg);
+}
+
+.polaroid--tilted-left-sm {
+  transform: rotate(-1.5deg);
+}
+
+.polaroid-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .polaroid-img {
@@ -202,8 +217,8 @@ body {
 }
 
 .polaroid-img--sm {
-  width: 200px;
-  height: 240px;
+  width: 260px;
+  height: 300px;
 }
 
 /* CSS placeholder until real images are added */
@@ -219,7 +234,7 @@ body {
 
 .polaroid-caption {
   font-family: 'Caveat', cursive;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   color: var(--text-mid);
   text-align: center;
   margin-top: 10px;
@@ -229,6 +244,7 @@ body {
 .about {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5rem;
   padding: 6rem 5rem;
   background: var(--white);
