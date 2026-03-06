@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <div className="footer-logo">Ramya Dev ✨</div>
+        <div className="footer-logo">Ramya Prasanna Dev ✨</div>
         <p>© 2026 All rights reserved. Made with ❤️ and lots of caffeine</p>
       </div>
       <div className="footer-social">

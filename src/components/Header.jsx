@@ -7,7 +7,14 @@ export default function Header() {
     <section className="hero">
       <div className="hero-text">
         <h1>Hi, I'm Ramya! 👋</h1>
-        <p>A creative developer building delightful digital<br />experiences with code &amp; imagination ✨</p>
+        <p className="hero-roles">
+          <span>CS Honors @ Purdue</span>
+          <span className="hero-roles-sep">✦</span>
+          <span>ML Researcher @ Kong Lab</span>
+          <span className="hero-roles-sep">✦</span>
+          <span>prev. AidenAI</span>
+        </p>
+        <p>A full stack engineer and bioinformatics enthusiast building full-stack apps and ML tools that turn data into usable solutions.</p>
         <div className="connect-bubble">Let's Connect!</div>
         <div className="hero-social">
           <a href="https://github.com/ramyap06" className="hero-social-btn" aria-label="GitHub">

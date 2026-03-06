@@ -100,6 +100,24 @@ body {
   line-height: 1.9;
 }
 
+.hero-roles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.6rem;
+  margin-bottom: 0.75rem !important;
+  font-family: 'Caveat', cursive;
+  font-size: 1.15rem !important;
+  color: var(--text-dark) !important;
+  line-height: 1.4 !important;
+}
+
+.hero-roles-sep {
+  color: var(--pink-border);
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+
 .btn {
   display: inline-block;
   padding: 0.65rem 1.8rem;
@@ -355,12 +373,17 @@ body {
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 3rem;
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   text-align: left;
+}
+
+.skill-col {
+  flex: 0 0 calc((100% - 6rem) / 3);
 }
 
 .skill-col h3 {
