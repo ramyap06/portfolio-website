@@ -30,16 +30,16 @@ export default function Header() {
       <div className="hero-photo">
         <div className="polaroid-row">
           <div className="polaroid polaroid--tilted-left">
-            <img src={sunset} alt="sunset" className="polaroid-img" />
-            <p className="polaroid-caption">got the prettiest sunsets on camera ✨</p>
+            <img src={sunset} alt="harvard" className="polaroid-img" />
+            <p className="polaroid-caption">visited harvard for a rare disease hackathon 🌸</p>
           </div>
           <div className="polaroid">
             <img src={starbucks} alt="starbucks" className="polaroid-img" />
             <p className="polaroid-caption">capturing my coffee obsession 🎨</p>
           </div>
           <div className="polaroid polaroid--tilted">
-            <img src={harvard} alt="harvard" className="polaroid-img" />
-            <p className="polaroid-caption">visited harvard for a rare disease hackathon 🌸</p>
+            <img src={harvard} alt="sunset" className="polaroid-img" />
+            <p className="polaroid-caption">got the prettiest sunset on camera ✨</p>
           </div>
         </div>
       </div>
