@@ -1,163 +1,99 @@
-// TODO: confirm exact dates — years are placeholders spread across the college timeline.
-// TODO: add links/repos for entries below that don't have one yet, and a real description for PWSense.
 const timelineItems = [
   {
     type: 'milestone',
-    date: '2022',
+    date: 'August 2024',
     title: 'Admitted to Purdue University',
     subtitle: 'Computer Science',
-    desc: 'Got admitted to Purdue for Computer Science — the start of it all.',
+    desc: 'With no real experience or understanding of computer science and all that I was about to explore, I took a leap of faith and committed to Purdue for CS.',
   },
   {
     type: 'milestone',
-    date: '2022',
+    date: 'August 2024',
     title: 'Java Prep',
     subtitle: 'Getting ready for CS 180',
-    desc: 'Practiced basic Java problems to get ready for my first CS class.',
-    skills: ['Java'],
+    desc: 'In preparation for my first CS class, CS 180 Object Oriented Programming in Java, I learned the basics of Java syntax and practiced simple algorithmic problems, hoping it would prepare me for what I was about to endure.',
+    skills: ['Java', 'Algorithms'],
+    link: 'https://github.com/ramyap06/Java-Practice',
   },
   {
     type: 'project',
-    date: '2022',
+    date: 'November 2024',
     title: 'Swap It',
     subtitle: 'CS 180 group project',
-    desc: 'My first full-stack app, built with Java and Java Swing/FX — a social media app with a newsfeed feature, a real-time server built on TCP/IP principles, and a user-friendly, seamless GUI.',
-    skills: ['Java', 'Java Swing/FX', 'TCP/IP'],
+    desc: "This CS 180 group project, implemented using Java's TCP/IP socket and server packages along with Java Swing and JavaFX for the GUI, was the first full stack app I ever made. This class and project gave me a hands on understanding of larger software concepts such as networking systems, separating a client and server, and persistence of data.",
+    skills: ['Java Swing', 'JavaFX', 'TCP/IP', 'Database Persistence'],
+    link: 'https://github.com/ramyap06/Swap-It',
   },
   {
     type: 'project',
-    date: '2022',
+    date: 'December 2024',
     title: 'DNA Sequence Analyzer',
     subtitle: 'First personal project',
-    desc: 'The first time I took what I’d learned in class and applied it to a project of my own interest.',
-    skills: ['Java'],
+    desc: 'Using skills learned from CS 180, this was also built with Java, Java Swing, and JavaFX. Though it was fairly simple to make, its functions included taking in a DNA string input and outputting the alternate sequence, the count of each letter, and the corresponding RNA sequence. It represents my first venture toward taking the skills I had learned and applying them to a project idea I came up with and found interesting.',
+    skills: ['Java Swing', 'JavaFX'],
+    link: 'https://github.com/ramyap06/dna-seq-analyzer',
   },
   {
     type: 'project',
-    date: '2023',
+    date: 'March 2025 - February 2026',
     title: 'Custom Memory Allocator',
-    subtitle: 'First attempt',
-    desc: 'Started building a custom memory allocator from scratch.',
-    skills: ['C'],
+    subtitle: 'Revived and completed as part of CS 252 Systems Programming',
+    desc: 'Freshman year I took a keen interest in C as I learned about pointers and memory allocation in CS 240 Programming in C. That led me to try implementing a memory allocator from scratch before I had even learned what a memory allocator was. With the knowledge, ability, and time I had as a freshman, I made something that closely threaded the path toward a custom memory allocator. In sophomore year, my systems programming class gave me the same project, finally letting me come full circle and complete what my eager younger self had once started.',
+    skills: ['C', 'Low-Level Programming'],
+    link: 'https://github.com/ramyap06/custom-memory-allocator',
+  },
+  {
+    type: 'experience',
+    date: 'August 2024 - May 2025',
+    title: 'Purdue MIND',
+    subtitle: 'fNIR TBI Prediction',
+    desc: 'A biomedical engineering club I joined as a freshman, working on a project involving a neurological device that scans blood oxygen levels in the brain and uses classical machine learning models to predict traumatic brain injury. This project gave me a broader look into the use of computer science in fields other than software engineering and the various areas of computer science I could explore.',
+    skills: ['Python', 'Machine Learning', 'pandas', 'numpy', 'matplotlib', 'scikit-learn', 'mne'],
+    link: 'https://github.com/khushichoksi05/neurotech_fnir_mind',
   },
   {
     type: 'project',
-    date: '2023',
+    date: 'May 2025',
     title: 'Dino Game',
     subtitle: 'Recreating a childhood favorite',
-    desc: 'Rebuilt the offline dino game to prove to myself I could create fun things — taught me a bit about game-making and visuals in programming.',
+    desc: 'With the motivation to explore my interests in software, I tried recreating a nostalgic game to dip my hands into game development. Using pygame, I implemented the Chrome dino game, using screenshots of icons from the game itself to make the dino character and obstacles. This even taught me a little about the physics behind game dev and realistic movement, which I found interesting.',
+    skills: ['Python', 'Game Development', 'pygame'],
+    link: 'https://github.com/ramyap06/dino-game',
   },
   {
     type: 'project',
-    date: '2023',
-    title: 'Tic-Tac-Toe',
+    date: 'June 2025',
+    title: 'Tic Tac Toe',
     subtitle: 'From scratch',
-    desc: 'The first time properly learning HTML, CSS, and JavaScript since middle school — built a tic-tac-toe board from scratch to show my skills.',
-    skills: ['HTML/CSS', 'JavaScript'],
-  },
-  {
-    type: 'milestone',
-    date: '2023',
-    title: 'Foundation for React',
-    desc: 'This gave me a good foundation from which I learned React and used my skills on personal projects and hackathons.',
-    skills: ['React.js'],
+    desc: "This was my first time properly learning HTML, CSS, and JavaScript since middle school. Making a tic tac toe board from scratch using the legacy system of HTML, CSS, and JS gave me a good foundation, one that has upheld me as new frameworks popularize and new platforms vary between companies. In fact, learning React a month after this project was much smoother than jumping straight into what was trending. This project represents the philosophy I still stick by: reinventing the wheel for the purpose of learning and building a solid base to ground you.",
+    skills: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://github.com/ramyap06/tic-tac-toe',
   },
   {
     type: 'project',
-    date: '2023',
+    date: 'August 2025',
     title: 'Stanford Open Policing Data Analysis',
     subtitle: 'EDA deep dive',
-    desc: 'My first real introduction to exploratory data analysis, in prep for the BoilerExams data analyst role.',
-    skills: ['polars', 'matplotlib'],
+    desc: 'Using polars, numpy, and matplotlib, this project served as my first real introduction to exploratory data analysis. It was intended as a preliminary test of my abilities while applying to the data analytics team of a popular Purdue-based exam prep website called BoilerExams. Among the many struggles I overcame here was pushing through the fear of not knowing or having enough experience, and on the technical side, finding optimized ways to view information about the data, since the dataset was so large it couldn’t be viewed on its own.',
+    skills: ['Python', 'EDA', 'polars', 'numpy', 'matplotlib'],
+    link: 'https://github.com/ramyap06/stanford-open-policing-data-analysis',
   },
   {
     type: 'experience',
-    date: '2023',
+    date: 'August 2025 - December 2025',
     title: 'BoilerExams',
     subtitle: 'Data Analyst',
-    desc: 'Worked as a data analyst using polars and seaborn.',
-    skills: ['polars', 'seaborn'],
-  },
-  {
-    type: 'project',
-    date: '2023',
-    title: 'Purdue Mind',
-    subtitle: 'Open source & computer vision',
-    desc: 'Worked with OpenCV and contributed to open source project usage.',
-    skills: ['OpenCV'],
-  },
-  {
-    type: 'project',
-    date: '2024',
-    title: 'Data Mine Backend SPAC Package',
-    desc: 'My introduction to working within a developer’s past codebase, and using Git properly — PRs, code reviews, and merging branches.',
-    skills: ['Git'],
+    desc: 'Using mainly Python data libraries including polars, numpy, matplotlib, and seaborn, I got to work with real data, build out a study, and answer my own questions using data. My work focused on finding whether there was an optimal time window in which students on average achieve the best performance on math exams. This experience exposed me to the messy and chaotic nature of data analysis that’s commonly talked about but rarely seen in neatly packaged Kaggle datasets and solutions.',
+    skills: ['Python', 'EDA', 'polars', 'numpy', 'matplotlib', 'seaborn'],
   },
   {
     type: 'experience',
-    date: '2024',
-    title: 'AidenAI',
-    subtitle: 'Internship',
-    desc: 'Software engineering internship at AidenAI.',
-  },
-  {
-    type: 'project',
-    date: '2024',
-    title: 'Sleep Pod',
-    subtitle: 'Hack the Future',
-    desc: 'Built at the Hack the Future hackathon.',
-  },
-  {
-    type: 'project',
-    date: '2024',
-    title: 'Custom Malloc',
-    subtitle: 'Systems Programming class project',
-    desc: 'Finished building a custom malloc from scratch as my systems programming class project.',
-    skills: ['C'],
-  },
-  {
-    type: 'experience',
-    date: '2025',
-    title: 'Kong Lab',
-    subtitle: 'Immune Survival Analysis',
-    desc: 'Proposed and started an immune survival analysis research project.',
-    link: 'https://github.com/ramyap06/kong-lab-ml-project',
-  },
-  {
-    type: 'project',
-    date: '2026',
-    title: 'BarBabes',
-    subtitle: '🏆 1st Place Overall + Best Use of AI, InnovateHer 2026',
-    desc: 'An app that makes college nightlife and drinking safer, powered by Reach Capital.',
-    skills: ['React.js', 'MongoDB', 'CI/CD'],
-    link: 'https://github.com/Azeemme/BarBabes',
-  },
-  {
-    type: 'project',
-    date: '2026',
-    title: 'PWSense',
-    desc: 'TODO: add a description for PWSense.',
-  },
-  {
-    type: 'project',
-    date: '2026',
-    title: 'Shell Project',
-    subtitle: 'From scratch',
-    desc: 'Finished building a shell from scratch.',
-  },
-  {
-    type: 'project',
-    date: '2026',
-    title: 'HTTP Server',
-    subtitle: 'From scratch',
-    desc: 'Finished building an HTTP server from scratch.',
-  },
-  {
-    type: 'experience',
-    date: '2026',
-    title: 'Manaaki Tech',
-    subtitle: 'Internship',
-    desc: 'TODO: add a description for the Manaaki Tech internship.',
+    date: 'August 2025 - May 2026',
+    title: 'Purdue MIND',
+    subtitle: 'Flexor CTS Glove App',
+    desc: 'Yet again, this club gave me a perspective into the world of software separate from traditional software engineering, as I dabbled in using OpenCV and Google Mediapipe for a real, solvable problem: creating a rehabilitation app for patients with Carpal Tunnel Syndrome. Here I really honed the confidence, problem solving, and quick learning skills I had built over the past smaller projects to collaborate with my teammates and make this product into a real possibility.',
+    skills: ['Python', 'OpenCV', 'Google Mediapipe'],
+    link: 'https://github.com/esmyla/MIND-CTS-Software',
   },
 ]
 
@@ -168,7 +104,7 @@ export default function Timeline() {
     <>
       <blockquote className="journey-quote">
         <p>"All big things come from small beginnings."</p>
-        <cite>— James Clear, Atomic Habits</cite>
+        <cite>James Clear, Atomic Habits</cite>
       </blockquote>
       <section id="journey" className="journey">
         <h2 className="section-title">My Journey</h2>
@@ -176,7 +112,7 @@ export default function Timeline() {
           {timelineItems.map((item, i) => (
             <div
               className={`journey-item ${i % 2 === 0 ? 'journey-item--left' : 'journey-item--right'}`}
-              key={item.title}
+              key={item.title + item.date}
             >
               <div className="journey-card">
                 <span className="journey-date">{typeIcon[item.type]} {item.date}</span>
