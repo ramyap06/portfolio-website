@@ -1,8 +1,7 @@
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import About from './components/About'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
+import Timeline from './components/Timeline'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -11,8 +10,7 @@ export default function App() {
       <Navbar />
       <Header />
       <About />
-      <Projects />
-      <Skills />
+      <Timeline />
       <Footer />
     </>
   )
